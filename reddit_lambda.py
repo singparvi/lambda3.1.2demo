@@ -51,7 +51,7 @@ class Thread:
         self.is_featured = True
 
 
-
+# added new line
 
 
 sarah = User(mod_status=False, username='sarah119')

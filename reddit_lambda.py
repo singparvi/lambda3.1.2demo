@@ -19,7 +19,7 @@ class Moderator(User):
     def __init__(self, mod_level, mod_subreddits, username):
         self.mod_level = mod_level
         self.mod_subreddits = mod_subreddits
-        User.__init__(mod_status=True, username=username)
+        User.__init__(self, mod_status=True, username=username)
 
 
     def ban_user(self, user):
@@ -51,7 +51,7 @@ class Thread:
         self.is_featured = True
 
 
-
+# added new line
 
 
 sarah = User(mod_status=False, username='sarah119')
